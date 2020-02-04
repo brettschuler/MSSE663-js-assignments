@@ -1,5 +1,5 @@
 {
-  "name": "week3",
+  "name": "brettschuler",
   "version": "1.0.0",
   "description": "Week 3 assignments",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "lint": "eslint **/*.ts --fix",
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },
-  "author": "",
+  "author": "brett schuler",
   "license": "ISC",
   "dependencies": {
     "typescript": "^3.7.2"
@@ -21,5 +21,9 @@
     "eslint": "^6.6.0",
     "mocha": "^6.2.2",
     "ts-node": "^8.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\web_frameworks_git\\MSSE663-js-assignments\\week3"
   }
 }

@@ -13,21 +13,21 @@
 
 1 Create an interface that has 3 properties and 2 methods.
 
-- all properties should be typed.
-- one method should return boolean.
-- one method should return an array of items of a custom type.
+done- all properties should be typed.
+done - one method should return boolean.
+done- one method should return an array of items of a custom type.
 
-2 Create a class that implements that interface.
+done 2 Create a class that implements that interface.
 
-3 Make a new instance of your class that calls your methods and outputs a result.
+done3 Make a new instance of your class that calls your methods and outputs a result.
 
 ### In `observables.ts`:
 
-1 Create an observable stream of an array (utilizing the `of` keyword).
+done1 Create an observable stream of an array (utilizing the `of` keyword).
 
-2 Map over the values in the array.
+done2 Map over the values in the array.
 
-3 Subscribe and ouput values to the concole.
+done 3 Subscribe and ouput values to the console.
 
 ### In `spec` files:
 
@@ -36,7 +36,7 @@
 2 Write a test for 3 scenarios of your choice.
 
 ```javascript
-// Tests are sutrctured in this pattern
+// Tests are structured in this pattern
 describe('...', () => {
     it('...', () => {});
     ...
@@ -45,12 +45,12 @@ describe('...', () => {
 
 ## Acceptance Criteria
 
-- Your new isntance should output a result to the console for each method.
+- Your new instance should output a result to the console for each method.
 - Your tests should pass 3 scenarios.
 
 ## Requirements and Caveats
 
-Use the following guidlines as reminders for your submissions.
+Use the following guidelines as reminders for your submissions.
 
 - Use ES6 as the primary javascript target.
 - All scripts should be linted before submission.
