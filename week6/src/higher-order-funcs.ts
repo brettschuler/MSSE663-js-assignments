@@ -8,11 +8,24 @@
  * - Then Hoist the callback function.
  *
  */
-const things = ['thing1', 'thing2'];
+const things: string[] = ['thing1', 'thing2'];
 
 // create callback here
 
+const callback = (things: string) => things;
+console.log(callback);
+
 // create map here
+
+
+const array1 = [1, 2, 3, 4];
+
+const map1 = array1.map(x => "id:" + x + " name things");
+
+console.log(map1);
+
+
+
 
 /**
  * #2 Higher order then curry.
@@ -23,3 +36,11 @@ const things = ['thing1', 'thing2'];
  */
 
 // create function here
+
+const key = () => 'hello';
+console.log(key());
+function check(map1) {
+    return map1 === 'thing';
+
+  }
+  map1.filter(check);
